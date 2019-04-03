@@ -1,0 +1,23 @@
+/*** CONTACT ***/
+.cursor:hover{
+    cursor:url('../img/arrows.png'),auto;
+}
+.cont-container{
+    height:620px;
+    width:100%;
+    margin-top:100px;
+}
+.cont{
+    height:600px;
+    width:48.5%;
+    padding:3px;
+    margin:5px;
+    float:left;
+    border:3px solid #105553;
+    background-color:#54A782;
+    text-align:center;
+    font-family:'Raleway', sans-serif;
+}
+.acute-img{
+    margin-top:110px;
+}

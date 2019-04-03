@@ -1,0 +1,33 @@
+/*** ABOUT ***/
+.cursor:hover{
+    cursor:url('../img/arrows.png'),auto;
+}
+.container{
+    height:720px;
+    width:100%;
+    margin-top:100px;
+}
+.columns{
+    height:700px;
+    width:32%;
+    border:3px solid #EE5B35;
+    float:left;
+    margin:4px;
+    padding:3px;
+    text-align:center;
+    font-variant:small-caps;
+    font-family:'Raleway', sans-serif;
+}
+.col-img{
+    width:100%;
+    margin:0 auto;
+}
+.one{
+    background-color:#007D82;
+}
+.two{
+    background-color:#105553;
+}
+.three{
+    background-color:#6AB07E;
+}
