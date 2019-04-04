@@ -1,7 +1,7 @@
 .cursor{
     cursor:url('../img/arrows.png'),auto;
 }
-.aside {
+.navbar{
     left: 50%;
     height: 100px;
     width: 160px;
@@ -15,7 +15,7 @@
     transition-duration: 2s;
     transform: translateX(-50%);
 }
-.aside:hover{
+.navbar:hover{
     width:100%;
     background-color:rgba(238, 91, 53, 0.5);
     transition:all 0.2 slide-out;
@@ -31,9 +31,9 @@
 .navlist{
     list-style-type:none;
     float:right;
-    color:#54A782;
-    font-family:monospace;
-    text-decoration:none;
+    color:#000707;
+    font-family:'Baloo Chettan', cursive;
+    text-decoration:overline;
     text-align:center;
     font-size:20px;
     margin-right:30px;
@@ -42,7 +42,6 @@
 .list-item:hover{
     color:#EE5B35;
     font-style:oblique;
-    float:left;
     list-style-type:none;
     font-family:'Baloo Chettan', cursive;
     text-shadow:1.5px 1.5px #6AB07E;
@@ -55,7 +54,6 @@ body{
     background-image:url('../img/ocean.jpg');
     height:700px;
     position:relative;
-    /*top:100px;*/
     background-repeat:repeat;
 }
 .herobox{
@@ -77,8 +75,6 @@ h1{
 .content{
     height:900px;
     width:100%;
-    /*background-color:#E0506B;*/
-    /*margin-top:100px;*/
 }
 .water, .content-text{
     height:800px;
